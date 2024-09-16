@@ -25,7 +25,7 @@ configure(allprojects) {
         archivesName = "${project.name}-mc${project.minecraft_version}"
     }
     it.group = project.maven_group
-    it.version = project.mod_version + "." + getVersionSuffix()
+    it.version = project.mod_version + ".acdop100-custom"
     java {
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
